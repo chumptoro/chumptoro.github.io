@@ -1,0 +1,9 @@
+.project_cards img {
+  transform: perspective(100px) translateZ(0px);
+  transition: transform 0.3s linear;
+}
+.project_cards img:hover {
+  transform: perspective(100px) translateZ(3px);
+}
+
+/*# sourceMappingURL=interaction.css.map */

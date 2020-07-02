@@ -1,0 +1,91 @@
+body {
+  display: grid;
+}
+
+.nav_bar {
+  grid-row-start: 1;
+  display: block;
+  position: relative;
+}
+.nav_bar .title, .nav_bar .nav_links {
+  position: absolute;
+}
+.nav_bar .title {
+  left: 10%;
+}
+.nav_bar .nav_links {
+  right: 10%;
+}
+
+.content {
+  grid-row-start: 2;
+  display: grid;
+}
+.content .intro_highlight, .content .intro, .content .current_learning, .content .project_cards, .content .contact, .content .divider_contact_links, .content .media_links {
+  grid-column-start: 2;
+  column-span: 1;
+}
+.content .divider_contact_links {
+  width: 100%;
+}
+.content .project_cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.content .project_cards .project_card_theana, .content .project_cards .project_card_pashi, .content .project_cards .project_card_behalf, .content .project_cards .project_card_phonomenal {
+  background-size: 100% auto;
+}
+.content .project_cards .project_card_theana {
+  background: url("../../images/light_purple.png") no-repeat;
+}
+.content .project_cards .project_card_pashi {
+  background: url("../../images/light_pink.png") no-repeat;
+}
+.content .project_cards .project_card_phonomenal {
+  background: url("../../images/light_yellow.png") no-repeat;
+}
+.content .project_cards .project_card_behalf {
+  background: url("../../images/light_blue.png") no-repeat;
+}
+
+.fave_glyph_image {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background: url("../../images/apercu_g_glyph_regular_bordered.svg") no-repeat;
+  transition: 0.3s;
+}
+
+.fave_glyph_image:hover {
+  background: url("../../images/apercu_g_glyph_regular_hovered.svg") no-repeat;
+  cursor: pointer;
+}
+
+@media (max-width: 300px) {
+  .content {
+    grid-template-columns: 30px 1fr 30px;
+  }
+}
+@media (min-width: 301px) {
+  .content {
+    grid-template-columns: 0.15fr 1fr 0.15fr;
+  }
+}
+@media (min-width: 861px) {
+  .content .project_cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1136px) {
+  .content .intro_highlight, .content .intro {
+    width: 860px;
+  }
+}
+@media (min-width: 1455px) {
+  .content {
+    grid-template-columns: 1fr 1221px 1fr;
+  }
+}
+
+/*# sourceMappingURL=responsive_layout.css.map */

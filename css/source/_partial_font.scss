@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'apercu';
+    src: url('https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff2') format('woff2'),
+         url('https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff') format('woff');
+    font-weight: 10000;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'apercu light';
+    src: url('../font_files/apercu_light/ApercuLight.woff2') format('woff2'),
+         url('../font_files/apercu_light/ApercuLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+//$primary-typeface: adobe-garamond-pro;
+$primary-typeface: 'apercu';
+
+$secondary-typeface: europa;
+$primary-typeface-light: none ;
+// $title-font: 'europa';
+
+%default-font {
+    font-family: $secondary-typeface;
+    font-size: 16px;
+}
+
+%title-font {
+    font-family: $secondary-typeface;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.2em;
+    letter-spacing: .02em;
+}
+
+%nav-link-font {
+    font-family: $secondary-typeface;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15.5px;
+    letter-spacing: .04em;
+}
+
+$intro-big-font-size: 28.5px;
+$intro-regular-font-size: 22px;
+
+%intro-big-font {
+    font-family: $primary-typeface;
+    font-size: $intro-big-font-size;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-transform: none;
+    color: #111;
+}
+
+%intro-regular-font {
+    font-family: $secondary-typeface;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 0em;
+    text-transform: none;
+    color: #333;
+}
+
+%fave-font {
+    font-family: 'apercu';
+    font-size: 20px;
+}
+
+$content-regular-font-size: 26px;
+
+
+
+

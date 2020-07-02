@@ -1,0 +1,7 @@
+@use 'partial_font';
+@use 'partial_color';
+
+html {
+	background: partial_color.$default-background-color;
+}
+

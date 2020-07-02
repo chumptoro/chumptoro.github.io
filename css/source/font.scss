@@ -1,0 +1,41 @@
+@use 'partial_font';
+@use 'partial_color';
+
+html {
+    @extend %default-font;
+}
+
+.title {
+    // font-family: font.$title-font;
+    @extend %title-font;
+}
+
+.nav_link {
+    // font-family: font.$title-font;
+    @extend %nav-link-font ;
+}
+
+.content {
+
+	.intro_highlight {
+		@extend %intro-big-font;
+		font-size: partial_font.$intro-big-font-size;
+	}
+
+	.intro {
+		@extend %intro-regular-font;
+		font-size:  partial_font.$intro-regular-font-size;
+		//color: rgb(0,0,0,0.6);
+	}
+
+
+
+}
+
+	.fave_font {
+	 	@extend %fave-font;
+		font-family: 'apercu';
+   		font-size: 50px;
+	}
+
+

@@ -1,0 +1,78 @@
+@use 'partial_font';
+@use 'partial_color';
+
+body {
+  	
+}
+
+.nav_bar {
+	
+	.title, .nav_links {
+	}
+
+	.title{
+		;
+	}
+	.nav_links{
+
+		.nav_link {
+			color: #b3b3b3;
+			text-decoration: none;
+		}
+		.nav_link:hover {
+			color:black;
+			text-decoration: none;
+		};
+		.nav_link_chosen {
+			color:black;
+			text-decoration: none;
+
+		}
+	}
+}
+
+.content {
+	.hyperlink {
+		color: partial_color.$hyperlink_font_color; 
+		text-decoration: none;
+	}
+	.hyperlink:hover {
+		text-decoration: underline;
+	} 
+	.Theana {
+		color: #45B549; //partial_color.$theana_font_color;
+	}
+
+	.divider_contact_links {
+		border-top: 1px solid #ededed;
+		
+	}
+
+	.email_link {
+		color:#45B549; //partial_color.$theana_font_color;
+	}
+}
+
+p {
+	
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+

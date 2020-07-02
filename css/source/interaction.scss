@@ -1,0 +1,12 @@
+
+
+	.project_cards {
+		img {
+			transform: perspective(100px) translateZ(0px);
+  			transition: transform .3s linear;
+		}
+		img:hover {
+			transform: perspective(100px) translateZ(3px);
+		}
+
+	}

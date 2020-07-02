@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "apercu";
+  src: url("https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff2") format("woff2"), url("https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff") format("woff");
+  font-weight: 10000;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu light";
+  src: url("../font_files/apercu_light/ApercuLight.woff2") format("woff2"), url("../font_files/apercu_light/ApercuLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.nav_bar .nav_links .nav_link {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+.nav_bar .nav_links .nav_link:hover {
+  color: black;
+  text-decoration: none;
+}
+.nav_bar .nav_links .nav_link_chosen {
+  color: black;
+  text-decoration: none;
+}
+
+.content .hyperlink {
+  color: #249aff;
+  text-decoration: none;
+}
+.content .hyperlink:hover {
+  text-decoration: underline;
+}
+.content .Theana {
+  color: #45B549;
+}
+.content .divider_contact_links {
+  border-top: 1px solid #ededed;
+}
+.content .email_link {
+  color: #45B549;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=color.css.map */

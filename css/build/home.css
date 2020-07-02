@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "apercu";
+  src: url("https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff2") format("woff2"), url("https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff") format("woff");
+  font-weight: 10000;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu light";
+  src: url("../font_files/apercu_light/ApercuLight.woff2") format("woff2"), url("../font_files/apercu_light/ApercuLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  background: white;
+}
+
+/*# sourceMappingURL=home.css.map */

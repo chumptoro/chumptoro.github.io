@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "apercu";
+  src: url("https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff2") format("woff2"), url("https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff") format("woff");
+  font-weight: 10000;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu light";
+  src: url("../font_files/apercu_light/ApercuLight.woff2") format("woff2"), url("../font_files/apercu_light/ApercuLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: europa;
+  font-size: 16px;
+}
+
+.title {
+  font-family: europa;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.nav_link {
+  font-family: europa;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.5px;
+  letter-spacing: 0.04em;
+}
+
+.content .intro_highlight {
+  font-family: "apercu";
+  font-size: 28.5px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: 0em;
+  text-transform: none;
+  color: #111;
+}
+
+.content .intro {
+  font-family: europa;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7em;
+  letter-spacing: 0em;
+  text-transform: none;
+  color: #333;
+}
+
+.fave_font {
+  font-family: "apercu";
+  font-size: 20px;
+}
+
+.content .intro_highlight {
+  font-size: 28.5px;
+}
+.content .intro {
+  font-size: 22px;
+}
+
+.fave_font {
+  font-family: "apercu";
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=font.css.map */
