@@ -10,6 +10,9 @@
   font-weight: normal;
   font-style: normal;
 }
+.nav_bar .title {
+  color: black;
+}
 .nav_bar .nav_links .nav_link {
   color: #b3b3b3;
   text-decoration: none;
@@ -42,19 +45,22 @@
 
 a:link {
   text-decoration: none;
+  color: white;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
+  color: white;
 }
 
 a:active {
   text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=color.css.map */
