@@ -40,13 +40,9 @@ body {
 	}
 
 
-
-
 	.project_cards {
 		display: grid;
-		grid-template-columns: 1fr;
-		
-		
+		//grid-template-columns: 1fr;
 
 		.project_card_theana, .project_card_pashi,.project_card_behalf, .project_card_phonomenal {
 			//width: 100%;
