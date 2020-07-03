@@ -87,5 +87,13 @@ body {
     grid-template-columns: 1fr 1221px 1fr;
   }
 }
+@media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .content {
+    grid-template-columns: 30px 1fr 30px;
+  }
+  .content .project_cards {
+    grid-template-columns: 1fr;
+  }
+}
 
 /*# sourceMappingURL=responsive_layout.css.map */

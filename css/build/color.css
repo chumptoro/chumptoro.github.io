@@ -13,6 +13,9 @@
 .nav_bar .title {
   color: black;
 }
+.nav_bar .title:visited {
+  color: black;
+}
 .nav_bar .nav_links .nav_link {
   color: #b3b3b3;
   text-decoration: none;
@@ -50,7 +53,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: white;
+  color: black !important;
 }
 
 a:hover {

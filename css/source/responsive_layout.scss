@@ -95,7 +95,7 @@ body {
 
 
 // margins for content
-//smaller or equal to screen size of iphone 8 (portrait)
+
 @media (max-width: 300px) {
 	.content  {
 		grid-template-columns: 30px 1fr 30px;
@@ -135,3 +135,20 @@ body {
 	}
 }
 
+
+
+
+// iPhone 6, 7, & 8 in portrait & landscape
+ @media screen and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    
+    .content  {
+		grid-template-columns: 30px 1fr 30px;
+
+		.project_cards {
+			grid-template-columns: 1fr;
+		}
+	}
+
+}
