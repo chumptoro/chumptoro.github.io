@@ -30,7 +30,6 @@ body {
 }
 .content .project_cards {
   display: grid;
-  grid-template-columns: 1fr;
 }
 .content .project_cards .project_card_theana, .content .project_cards .project_card_pashi, .content .project_cards .project_card_behalf, .content .project_cards .project_card_phonomenal {
   background-size: 100% auto;
