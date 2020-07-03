@@ -1,9 +1,6 @@
 //minimum left and righ margin 
 body {
 	display: grid;
-	//grid-auto-flow: row;
-	// height: 100%;
- //  	width: 100%;
 }
 
 .nav_bar {
@@ -90,8 +87,7 @@ body {
 
 
 
-// margins for content
-
+// desktop and ipad media queries
 @media (max-width: 300px) {
 	.content  {
 		grid-template-columns: 30px 1fr 30px;
@@ -132,13 +128,22 @@ body {
 }
 
 
+//iphone media queries
+%mobile-layout {
+	.content  {
+		grid-template-columns: 30px 1fr 30px;
 
+		.project_cards {
+			grid-template-columns: 1fr;
+		}
+	}
+}
 
-// iPhone 6, 7, & 8 in portrait & landscape
- @media screen and (device-width : 375px) 
+// iPhone 6, 7, & 8portrait & landscape mode
+ @media screen 
+ 	and (device-width : 375px)   
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) {
-    
     .content  {
 		grid-template-columns: 30px 1fr 30px;
 
@@ -146,5 +151,18 @@ body {
 			grid-template-columns: 1fr;
 		}
 	}
+}
 
+//iPhone 8 plus
+ @media screen 
+ 	and (device-width : 414px)   
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .content  {
+		grid-template-columns: 30px 1fr 30px;
+
+		.project_cards {
+			grid-template-columns: 1fr;
+		}
+	}
 }
