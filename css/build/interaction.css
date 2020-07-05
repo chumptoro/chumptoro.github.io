@@ -6,4 +6,12 @@
   transform: perspective(100px) translateZ(3px);
 }
 
+.hamburger_dropdown_icon:hover {
+  cursor: pointer;
+}
+
+.close_nav_modal_icon:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=interaction.css.map */
