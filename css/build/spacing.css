@@ -32,13 +32,16 @@ body {
   display: block;
 }
 .nav_modal .nav_modal_contact_me {
+  margin-top: 50px;
   text-align: center;
 }
-.nav_modal .nav_modal_contact_me .nav_modal_call_to_action, .nav_modal .nav_modal_contact_me .nav_modal_media_links {
-  margin: auto;
-  margin-top: 20px;
-  padding-top: 100px;
+.nav_modal .nav_modal_contact_me .nav_modal_divider_for_contact_links {
+  width: 70%;
   border-top: 1px solid #ededed;
+  margin: auto;
+}
+.nav_modal .nav_modal_contact_me .nav_modal_call_to_action, .nav_modal .nav_modal_contact_me .nav_modal_media_links {
+  margin-top: 20px;
 }
 .nav_modal .nav_modal_contact_me .nav_modal_social_media_icon {
   margin-right: 25px;
