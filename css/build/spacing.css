@@ -4,6 +4,17 @@ body {
 
 .nav_bar {
   margin-top: 40px;
+  display: block;
+  position: relative;
+}
+.nav_bar .title, .nav_bar .nav_links {
+  position: absolute;
+}
+.nav_bar .title {
+  left: 10%;
+}
+.nav_bar .nav_links {
+  right: 10%;
 }
 .nav_bar .nav_links .nav_link {
   margin-right: 12px;

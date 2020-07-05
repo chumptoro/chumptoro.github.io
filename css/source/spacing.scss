@@ -7,17 +7,19 @@ body {
 }
 	.nav_bar {
 		margin-top: partial_spacing.$view_top_gap;
+		display: block;
+		position: relative;
 
 		.title, .nav_links {
-			
+			position: absolute;
 		}
 
 		.title {
-			
+			left: 10%;
 		}
 
 		.nav_links{
-			
+			right: 10%;
 			.nav_link {
 				margin-right: 12px;
 				margin-left: 12px;
