@@ -3,6 +3,7 @@ body {
 }
 
 .nav_bar {
+  background-color: gray;
   grid-row-start: 1;
   display: block;
   position: relative;
@@ -16,12 +17,28 @@ body {
 .nav_bar .nav_links {
   right: 10%;
 }
+.nav_bar .hamburger_dropdown_icon {
+  display: none;
+}
 
+.nav_modal {
+  grid-row-start: 1;
+}
+
+@media screen and (max-width: 1900px) {
+  .nav_bar span {
+    display: none;
+  }
+
+  .nav_bar .hamburger_dropdown_icon {
+    display: block;
+  }
+}
 .content {
   grid-row-start: 2;
   display: grid;
 }
-.content .intro_highlight, .content .intro, .content .current_learning, .content .project_cards, .content .contact, .content .divider_contact_links, .content .media_links {
+.content .intro_highlight, .content .intro, .content .current_learning, .content .project_cards, .content .contact, .content .divider_contact_links, .content .media_links, .content .email {
   grid-column-start: 2;
   column-span: 1;
 }
@@ -83,7 +100,7 @@ body {
 }
 @media (min-width: 1455px) {
   .content {
-    grid-template-columns: 1fr 1221px 1fr;
+    grid-template-columns: 1fr 1121px 1fr;
   }
 }
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {

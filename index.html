@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Mark Phạm</title>
-
-<meta http-equiv="Content-Security-Policy" content="default-src *; 
-img-src 'self' data:;">
+	<!--ensuring svg fiels are allowed to be used as images and favicon-->
+	<meta http-equiv="Content-Security-Policy" content=" 
+	img-src 'self' data:;">
 	<!--ensuring mobile responsive design-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,11 +23,16 @@ img-src 'self' data:;">
 	<link rel="stylesheet" href="css/build/responsive_layout.css">
 	<link rel="stylesheet" href="css/build/spacing.css">
 	<link rel="stylesheet" href="css/build/interaction.css">
+	<!--nav_bar dropdown icon-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
+
+
 <div class="nav_bar">
-	<div ><a class="title"href="index.html">Mark Pham</a></div>
+	<div><a class="title" href="index.html">Mark Pham</a></div>
 	<div class="nav_links">
 		<span>
 			<a class="nav_link" href="work.html">Work</a>
@@ -36,11 +41,40 @@ img-src 'self' data:;">
 			<a class="nav_link" href="about.html">About</a>
 		</span>
 		<span>
-			<a class="nav_link" href="https://docs.google.com/document/d/1m_sIaOQXBLxU4R8Ul6sfoQXf70zT2cesM8DmHpZxpzI/">Resume</a>
+			<a class="nav_link" href="">Resume</a>
 		</span>
+		<img class="hamburger_dropdown_icon" id="hamburger_dropdown" src="images/hamburger_dropdown_unclicked.svg" height="28px" width="22px">
+		
 	</div>
-
 </div>
+
+<div class="nav_modal">
+	<div class="nav_modal_close_button_wrapper">
+		<img class="clicked_hamburger_dropdown_icon" src="images/hamburger_dropdown_unclicked.svg" height="28px" width="22px">
+	</div>	
+	
+
+	<div class="nav_modal_content">
+		<div class="nav_modal_title">Mark Pham</div>
+
+		<div>
+			<a class="" href="work.html">Work</a>
+		</div>
+		
+		<div>
+			<a class="" href="about.html">About</a>
+		</div>
+		
+		<div>
+			<a class="" href="">Resume</a>
+		</div>
+	</div>
+</div>
+
+
+
+
+
 
 	<div class="content">
 		<p class="intro_highlight">
@@ -90,9 +124,11 @@ img-src 'self' data:;">
 
 		<div class="divider_contact_links">
 		</div>
-		<div class="contact">
-			I'm hiring engineers and designers. Reach me at <span class="email_link">mark@theana.co<span>
-		</div>
+
+		<div class="contact">I'm hiring. Let's talk! <span class="email_link">mark@theana.co </span></div>
+		
+		
+
 		<div class="media_links">
 			 <a class="social_media_icon" href="https://www.linkedin.com/in/mark-pham-theana/"><img src="images/linkedin.svg" width="26px" height="26px" margin="5px"></a>
 			 <a class="social_media_icon" href="https://github.com/chumptoro"><img src="images/github.svg" width="26px" height="26px" margin="5px"></a>
@@ -104,8 +140,13 @@ img-src 'self' data:;">
 	</div>
 
 
- <!-- <script type="text/javascript" src="/js/interaction.js"></script>
+ <!-- <script type="text/javascript" src="js/interaction.js"></script>
  -->
+
+<script type="text/javascript" src="js/responsive.js"></script>
+ 
+
+
 </body>
 
 

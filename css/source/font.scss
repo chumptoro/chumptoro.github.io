@@ -5,15 +5,22 @@ html {
     @extend %default-font;
 }
 
-.title {
-    // font-family: font.$title-font;
+.title {    
     @extend %title-font;
 }
 
 .nav_link {
-    // font-family: font.$title-font;
     @extend %nav-link-font ;
 }
+
+.nav_modal_content {
+	.nav_modal_title {
+		@extend %title-font;
+	}
+}
+
+
+
 
 .content {
 

@@ -4,11 +4,11 @@ body {
 }
 
 .nav_bar {
+	background-color: gray;
 	grid-row-start: 1;
 	display: block;
 	position: relative;
 	
-
 	.title, .nav_links {
 		position: absolute;
 	}
@@ -19,7 +19,63 @@ body {
 	.nav_links{
 		right: 10%;
 	}
+
+	.hamburger_dropdown_icon {
+  		display: none;
+  		//z-index: 101;
+	}
 }
+
+ .nav_modal {
+ 	grid-row-start: 1;
+}
+
+// .nav_modal {
+// 	grid-row-start: 1;
+// 	display: block;
+// 	position: fixed;
+// 	z-index: 100;
+// 	right:0;
+//   	bottom:0;
+//   	width:100%;
+//   	height: 100%;
+//   	background-color: gray;
+
+// 	.nav_modal_content {
+// 		overflow-y: hidden; /* no vertical scrolling*/
+// 		div {
+// 			text-align:center;
+// 			margin-top: 100px;
+// 		}
+// 	}
+// 	.nav_modal_close_button_wrapper {
+// 		position: absolute;
+// 		right: 10%;
+// 		margin-top: partial_spacing.$view_top_gap + 8;
+
+// 		.close_modal_button {
+// 			display: block;
+// 		}
+//	}
+//}
+
+//if screen size is below 600px in height, hide the nav bar but not 'mark pham' and show a hamburger dropdown instead
+@media screen and (max-width: 1900px) {
+	.nav_bar span {
+		display: none;
+	}
+
+	.nav_bar {
+		.hamburger_dropdown_icon {
+			display: block;
+		}  	
+  	}
+}
+
+
+
+
+
 
 .content {
 	grid-row-start: 2;
@@ -27,7 +83,7 @@ body {
 	display: grid;
 	
 
-	.intro_highlight, .intro, .current_learning, .project_cards, .contact, .divider_contact_links, .media_links {
+	.intro_highlight, .intro, .current_learning, .project_cards, .contact, .divider_contact_links, .media_links, .email {
 		grid-column-start: 2;
 		column-span: 1;
 	}
@@ -94,13 +150,11 @@ body {
 	}
 }
 
-//ipad pro 12'9 screen size (portrait) 
 @media (min-width: 301px) {
 	.content {
 		grid-template-columns: 0.15fr 1fr 0.15fr;
 	}
 }
-
 
 @media (min-width: 861px) {
 	.content  {
@@ -110,19 +164,17 @@ body {
 	}
 }
 
-//cap the width of the intro paragraphs
 @media (min-width: 1136px) {
 	.content  {
 		.intro_highlight, .intro {
 			width: 860px;
 		}
-
 	}
 }
 
 @media (min-width: 1455px) {
 	.content  {
-		grid-template-columns: 1fr 1221px 1fr;
+		grid-template-columns: 1fr 1121px 1fr;
 
 	}
 }

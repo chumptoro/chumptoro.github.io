@@ -48,22 +48,20 @@
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:visited {
   text-decoration: none;
-  color: black !important;
+  color: black;
 }
 
 a:hover {
-  text-decoration: none;
-  color: white;
+  color: none;
 }
 
 a:active {
-  text-decoration: none;
-  color: white;
+  color: none;
 }
 
 /*# sourceMappingURL=color.css.map */
