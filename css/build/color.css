@@ -29,6 +29,10 @@
   text-decoration: none;
 }
 
+.nav_modal {
+  opacity: 0.5;
+}
+
 .content .hyperlink {
   color: #249aff;
   text-decoration: none;
@@ -42,7 +46,8 @@
 .content .divider_contact_links {
   border-top: 1px solid #ededed;
 }
-.content .email_link {
+
+.email_link {
   color: #45B549;
 }
 

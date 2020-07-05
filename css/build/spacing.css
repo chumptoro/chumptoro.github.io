@@ -32,6 +32,20 @@ body {
 .nav_modal .nav_modal_close_button_wrapper .close_modal_button {
   display: block;
 }
+.nav_modal .nav_modal_contact_me {
+  margin-top: 150px;
+  text-align: center;
+}
+.nav_modal .nav_modal_contact_me .nav_modal_divider_for_contact_links {
+  border-top: 1px solid #ededed;
+}
+.nav_modal .nav_modal_contact_me .nav_modal_call_to_action, .nav_modal .nav_modal_contact_me .nav_modal_media_links {
+  margin-top: 40px;
+}
+.nav_modal .nav_modal_contact_me .nav_modal_social_media_icon {
+  margin-right: 25px;
+  margin-left: 25px;
+}
 
 .content {
   grid-row-gap: 0px;

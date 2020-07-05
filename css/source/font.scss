@@ -3,21 +3,31 @@
 
 html {
     @extend %default-font;
+    font-size:partial_font.$default-font-small-size;
 }
 
 .title {    
     @extend %title-font;
+    font-size: partial_font.$title-mid-font-size;
 }
 
 .nav_link {
     @extend %nav-link-font ;
+    font-size: partial_font.$nav-link-small-font-size;
 }
 
 .nav_modal_content {
 	.nav_modal_title {
 		@extend %title-font;
+		font-size: partial_font.$title-mid-font-size;
+	}
+	.nav_modal_link {
+		@extend %nav-link-font;
+		font-size: partial_font.$nav-link-mid-font-size;
 	}
 }
+
+
 
 
 

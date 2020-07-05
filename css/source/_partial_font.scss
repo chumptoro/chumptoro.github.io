@@ -21,29 +21,35 @@ $primary-typeface: 'apercu';
 
 $secondary-typeface: europa;
 $primary-typeface-light: none ;
-// $title-font: 'europa';
 
+
+
+
+$default-font-small-size:16px;
 %default-font {
     font-family: $secondary-typeface;
-    font-size: 16px;
+    
 }
 
+$title-mid-font-size: 22px;
 %title-font {
     font-family: $secondary-typeface;
     font-weight: 700;
     font-style: normal;
-    font-size: 22px;
     line-height: 1.2em;
     letter-spacing: .02em;
+    //font-size:22px;
 }
 
+$nav-link-small-font-size: 15.5px;
+$nav-link-mid-font-size: 18px;
 %nav-link-font {
     font-family: $secondary-typeface;
     font-weight: 400;
     font-style: normal;
-    font-size: 15.5px;
     letter-spacing: .04em;
 }
+
 
 $intro-big-font-size: 28.5px;
 $intro-regular-font-size: 22px;

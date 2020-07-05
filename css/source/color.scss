@@ -37,6 +37,10 @@ body {
 	}
 }
 
+.nav_modal {
+ 	opacity: 0.5;
+}
+
 .content {
 	.hyperlink {
 		color: partial_color.$hyperlink_font_color; 
@@ -53,16 +57,10 @@ body {
 		border-top: 1px solid #ededed;
 		
 	}
-
+}
 	.email_link {
 		color:#45B549; //partial_color.$theana_font_color;
 	}
-}
-
-p {
-	
-}
-
 
 
 a:link {

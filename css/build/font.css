@@ -12,23 +12,20 @@
 }
 html {
   font-family: europa;
-  font-size: 16px;
 }
 
 .title, .nav_modal_content .nav_modal_title {
   font-family: europa;
   font-weight: 700;
   font-style: normal;
-  font-size: 22px;
   line-height: 1.2em;
   letter-spacing: 0.02em;
 }
 
-.nav_link {
+.nav_link, .nav_modal_content .nav_modal_link {
   font-family: europa;
   font-weight: 400;
   font-style: normal;
-  font-size: 15.5px;
   letter-spacing: 0.04em;
 }
 
@@ -56,6 +53,25 @@ html {
 .fave_font {
   font-family: "apercu";
   font-size: 20px;
+}
+
+html {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.nav_link {
+  font-size: 15.5px;
+}
+
+.nav_modal_content .nav_modal_title {
+  font-size: 22px;
+}
+.nav_modal_content .nav_modal_link {
+  font-size: 18px;
 }
 
 .content .intro_highlight {
