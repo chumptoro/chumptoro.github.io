@@ -21,7 +21,7 @@ body {
 }
 .nav_modal .nav_modal_content div {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .nav_modal .nav_modal_close_button_wrapper {
   position: absolute;
@@ -32,7 +32,7 @@ body {
   display: block;
 }
 .nav_modal .nav_modal_contact_me {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 .nav_modal .nav_modal_contact_me .nav_modal_divider_for_contact_links {
@@ -41,7 +41,7 @@ body {
   margin: auto;
 }
 .nav_modal .nav_modal_contact_me .nav_modal_call_to_action, .nav_modal .nav_modal_contact_me .nav_modal_media_links {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .nav_modal .nav_modal_contact_me .nav_modal_social_media_icon {
   margin-right: 25px;
