@@ -1,9 +1,16 @@
 function openModal() {
   document.getElementsByClassName("nav_modal")[0].style.display = "block";
+
+  document.getElementsByClassName("nav_bar")[0].style.filter = "blur(20px)";
+  document.getElementsByClassName("content")[0].style.filter = "blur(20px)";
 }
 
 function closeModal() {
   document.getElementsByClassName("nav_modal")[0].style.display = "none";
+  document.getElementsByClassName("nav_bar")[0].style.filter = "blur(0px)";
+  document.getElementsByClassName("content")[0].style.filter = "blur(0px)";
+
+
 }
 
 window.onload = function() {
