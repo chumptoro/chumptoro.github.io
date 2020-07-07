@@ -5,81 +5,17 @@ body {
 }
 
 .nav_bar {
-
-	grid-row-start: 1;
-	display: block;
-	position: relative;
-	
-	.title, .nav_links {
-		position: absolute;
-	}
-
-	.title{
-		left: 10%;
-	}
-	.nav_links{
-		right: 10%;
-	}
-
 	.hamburger_dropdown_icon {
-  		display: none;
-  		//z-index: 101;
+	  	display: none;
+	  		
 	}
-}
-
-.nav_modal {
- 	//grid-row-start: 1;
- 	//opacity: 0.5;
-}
-
-// .nav_modal {
-// 	grid-row-start: 1;
-// 	display: block;
-// 	position: fixed;
-// 	z-index: 100;
-// 	right:0;
-//   	bottom:0;
-//   	width:100%;
-//   	height: 100%;
-//   	background-color: gray;
-
-// 	.nav_modal_content {
-// 		overflow-y: hidden; /* no vertical scrolling*/
-// 		div {
-// 			text-align:center;
-// 			margin-top: 100px;
-// 		}
-// 	}
-// 	.nav_modal_close_button_wrapper {
-// 		position: absolute;
-// 		right: 10%;
-// 		margin-top: partial_spacing.$view_top_gap + 8;
-
-// 		.close_modal_button {
-// 			display: block;
-// 		}
-//	}
-//}
-
-//if screen size is below 600px in height, hide the nav bar but not 'mark pham' and show a hamburger dropdown instead
-@media screen and (max-width: 1700px) {
-	.nav_bar span {
-		display: none;
-	}
-
-	.nav_bar {
-		.hamburger_dropdown_icon {
-			display: block;
-		}  	
-  	}
 }
 
 .content {
-	grid-row-start: 2;
+	//grid-row-start: 2;
 	display: grid;
 	
-
-	.intro_highlight, .intro, .current_learning, .project_cards, .contact, .divider_contact_links, .media_links, .email {
+	.intro_section, .project_cards, .contact, .divider_contact_links, .media_links, .email {
 		grid-column-start: 2;
 		column-span: 1;
 	}
@@ -95,52 +31,45 @@ body {
 		.project_card_theana, .project_card_pashi,.project_card_behalf, .project_card_phonomenal {
 			//width: 100%;
         	///height: auto;
-        	//border-radius: 5px;
+        	//border-radius: 5px;``
         	background-size: 100% auto;
 		}
 	}
 }
 
-
-
-	.fave_glyph_image {
-
-		display: block;
-		margin:auto;
-		width: 200px;
-        height: 200px;
-        background: url("../../images/apercu_g_glyph_regular_bordered.svg") no-repeat;
-        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-        transition: 0.3s;
+.nav_modal {
+	 	//grid-row-start: 1;
+}
+//separate navigation bar with hamburger dropdown icon for resolutions below 600px:
+//if screen size is below 600px in height, hide the nav bar but not 'mark pham' and show a hamburger dropdown instead
+@media screen and (max-width: 600px) {
+	.nav_bar .links .nav_links span {
+		display: none;
 	}
 
-	.fave_glyph_image:hover {
-
-        background: url("../../images/apercu_g_glyph_regular_hovered.svg") no-repeat;
- 
-        cursor: pointer ;
-	}
-
-
-
+	.nav_bar {
+		.hamburger_dropdown_icon {
+			display: block;
+		}  	
+  	}
+}
 
 
 // desktop and ipad media queries
 @media (max-width: 300px) {
-	.content  {
+	.content, .nav_bar  {
 		grid-template-columns: 30px 1fr 30px;
 	}
 }
 
 @media (min-width: 301px) {
-	.content {
-		grid-template-columns: 0.15fr 1fr 0.15fr;
+	.content, .nav_bar {
+		grid-template-columns: 0.11fr 1fr 0.11fr;
 	}
 }
 
 @media (min-width: 861px) {
-	.content  {
+	.content, .nav_bar  {
 		.project_cards {
 			grid-template-columns: 1fr 1fr;
 		}
@@ -148,7 +77,7 @@ body {
 }
 
 @media (min-width: 1136px) {
-	.content  {
+	.content, .nav_bar  {
 		.intro_highlight, .intro {
 			width: 860px;
 		}
@@ -156,16 +85,15 @@ body {
 }
 
 @media (min-width: 1455px) {
-	.content  {
+	.content, .nav_bar  {
 		grid-template-columns: 1fr 1121px 1fr;
-
 	}
 }
 
 
 //iphone media queries
 %mobile-layout {
-	.content  {
+	.content, .nav_bar  {
 		grid-template-columns: 30px 1fr 30px;
 
 		.project_cards {
@@ -179,10 +107,10 @@ body {
  	and (device-width : 375px)   
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) {
-    .content  {
+    .content, .nav_bar  {
 		grid-template-columns: 30px 1fr 30px;
 
-		.project_cards {
+		.project_cards, {
 			grid-template-columns: 1fr;
 		}
 	}
@@ -193,7 +121,7 @@ body {
  	and (device-width : 414px)   
     and (device-height : 736px) 
     and (-webkit-device-pixel-ratio : 2) {
-    .content  {
+    .content , .nav_bar {
 		grid-template-columns: 30px 1fr 30px;
 
 		.project_cards {
@@ -201,3 +129,25 @@ body {
 		}
 	}
 }
+
+
+
+.fave_glyph_image {
+
+	display: block;
+	margin:auto;
+	width: 200px;
+    height: 200px;
+    background: url("../../images/apercu_g_glyph_regular_bordered.svg") no-repeat;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    transition: 0.3s;
+}
+
+.fave_glyph_image:hover {
+
+    background: url("../../images/apercu_g_glyph_regular_hovered.svg") no-repeat;
+
+    cursor: pointer ;
+}
+
