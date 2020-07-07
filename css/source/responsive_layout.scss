@@ -42,7 +42,7 @@ body {
 }
 //separate navigation bar with hamburger dropdown icon for resolutions below 600px:
 //if screen size is below 600px in height, hide the nav bar but not 'mark pham' and show a hamburger dropdown instead
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 	.nav_bar .links .nav_links span {
 		display: none;
 	}
