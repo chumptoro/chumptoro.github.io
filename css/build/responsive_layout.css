@@ -46,18 +46,6 @@ body {
 .content .project_cards .project_card_theana, .content .project_cards .project_card_pashi, .content .project_cards .project_card_behalf, .content .project_cards .project_card_phonomenal {
   background-size: 100% auto;
 }
-.content .project_cards .project_card_theana {
-  background: url("../../images/light_purple.png") no-repeat;
-}
-.content .project_cards .project_card_pashi {
-  background: url("../../images/light_pink.png") no-repeat;
-}
-.content .project_cards .project_card_phonomenal {
-  background: url("../../images/light_yellow.png") no-repeat;
-}
-.content .project_cards .project_card_behalf {
-  background: url("../../images/light_blue.png") no-repeat;
-}
 
 .fave_glyph_image {
   display: block;

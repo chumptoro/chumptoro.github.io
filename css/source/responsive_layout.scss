@@ -74,14 +74,8 @@ body {
   	}
 }
 
-
-
-
-
-
 .content {
 	grid-row-start: 2;
-	
 	display: grid;
 	
 
@@ -94,7 +88,6 @@ body {
 		width:100%;
 	}
 
-
 	.project_cards {
 		display: grid;
 		//grid-template-columns: 1fr;
@@ -104,18 +97,6 @@ body {
         	///height: auto;
         	//border-radius: 5px;
         	background-size: 100% auto;
-		}
-		.project_card_theana {
-			background: url("../../images/light_purple.png") no-repeat;
-		}
-		.project_card_pashi {
-			background: url("../../images/light_pink.png") no-repeat;
-		}
-		.project_card_phonomenal {
-			background: url("../../images/light_yellow.png") no-repeat;
-		}
-		.project_card_behalf {
-			background: url("../../images/light_blue.png") no-repeat;
 		}
 	}
 }

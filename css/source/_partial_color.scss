@@ -2,13 +2,15 @@
 // #fcf7ef is light orange-white suitable for background
 //color: #249aff; is a sky blue used for styling links
 
-//a set of light colors
-//color:rgb(250,234,227);  pink from https://www.pratibhajoshi.com/
-//color:rgb(231,237,253); purple https://www.pratibhajoshi.com/
-//color:rgb(249,247,204); yelllow https://www.pratibhajoshi.com/
-//coloor:rgb(224,237,252); blue https://www.pratibhajoshi.com/
+// adobe* colors of the project cards, 
+//which is going to be diffeerent
+//when rendered by the browser
+// color: #fee4db;  lighter pink based on https://www.pratibhajoshi.com/
+// color: #dde9ff; lighter purple based on https://www.pratibhajoshi.com/
+// color: #fdf5ba; yelllow based onhttps://www.pratibhajoshi.com/
+// color: #c8e7ff; lighter blue  based on https://www.pratibhajoshi.com/
 
 // $default-background-color: #fcf7ef;
-$default-background-color: white;
+$default-background-color: rgb(255,255,255);
 $hyperlink_font_color: #249aff;
 $theana_font_color: #fcf7ef;

@@ -31,7 +31,7 @@ html {
 
 .content .intro_highlight {
   font-family: "apercu";
-  font-size: 28.5px;
+  font-size: 25px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.2em;
@@ -75,10 +75,10 @@ html {
 }
 
 .content .intro_highlight {
-  font-size: 28.5px;
+  font-size: 25px;
 }
 .content .intro {
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .fave_font {

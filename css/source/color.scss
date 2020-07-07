@@ -1,8 +1,7 @@
-@use 'partial_font';
 @use 'partial_color';
 
 body {
-  	
+  	background-color: partial_color.$default-background-color;
 }
 
 .nav_bar {
@@ -12,9 +11,11 @@ body {
 
 	.title{
 		color: black;
+		text-decoration: none;
 	}
 	.title:visited {
 		color: black;
+		text-decoration: none;
 	}
 
 
@@ -40,9 +41,45 @@ body {
 .nav_modal {
  	opacity: 0.5;
  	background-color: white; //#e5e5e5;
+
+ 	.nav_modal_link {
+ 		text-decoration: none;
+ 		color:black;
+ 	}
+ 	.nav_modal_link:visited {
+ 		text-decoration: none;
+ 		color:black;
+ 	}
+ 	.nav_modal_link:active {
+ 		text-decoration: none;
+ 		color:black;
+ 	}
+ 	.nav_modal_link:hover {
+ 		text-decoration: none;
+ 		color:black;
+ 	}
 }
 
+
+
+
 .content {
+
+	.project_cards {
+		.project_card_theana {
+			background: url("../../images/light_purple.png") no-repeat;
+		}
+		.project_card_pashi {
+			background: url("../../images/light_pink.png") no-repeat;
+		}
+		.project_card_phonomenal {
+			background: url("../../images/light_yellow.png") no-repeat;
+		}
+		.project_card_behalf {
+			background: url("../../images/light_blue.png") no-repeat;
+		}
+	}
+
 	.hyperlink {
 		color: partial_color.$hyperlink_font_color; 
 		text-decoration: none;
@@ -60,25 +97,30 @@ body {
 	}
 }
 	.email_link {
-		color:#45B549; //partial_color.$theana_font_color;
+		color:#45B549 !important; //partial_color.$theana_font_color;
+		text-decoration:none;
+	}
+	.email_link:hover {
+		text-decoration: underline;
 	}
 
+// a:link {
+//   text-decoration: none;
+//   color:black;
+// }
 
-a:link {
-  text-decoration: none;
-  color:black;
-}
+// a:visited {
+//   text-decoration: none;
+//   color:black;
+// }
 
-a:visited {
-  text-decoration: none;
-  color:black;
-}
+// a:hover {
+//   color:none;
+// }
 
-a:hover {
-  color:none;
-}
+// a:active {
+//   color:none;
+// }
 
-a:active {
-  color:none;
-}
+
 

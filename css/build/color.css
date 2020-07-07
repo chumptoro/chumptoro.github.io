@@ -1,20 +1,14 @@
-@font-face {
-  font-family: "apercu";
-  src: url("https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff2") format("woff2"), url("https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff") format("woff");
-  font-weight: 10000;
-  font-style: normal;
+body {
+  background-color: white;
 }
-@font-face {
-  font-family: "apercu light";
-  src: url("../font_files/apercu_light/ApercuLight.woff2") format("woff2"), url("../font_files/apercu_light/ApercuLight.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+
 .nav_bar .title {
   color: black;
+  text-decoration: none;
 }
 .nav_bar .title:visited {
   color: black;
+  text-decoration: none;
 }
 .nav_bar .nav_links .nav_link {
   color: #b3b3b3;
@@ -33,7 +27,35 @@
   opacity: 0.5;
   background-color: white;
 }
+.nav_modal .nav_modal_link {
+  text-decoration: none;
+  color: black;
+}
+.nav_modal .nav_modal_link:visited {
+  text-decoration: none;
+  color: black;
+}
+.nav_modal .nav_modal_link:active {
+  text-decoration: none;
+  color: black;
+}
+.nav_modal .nav_modal_link:hover {
+  text-decoration: none;
+  color: black;
+}
 
+.content .project_cards .project_card_theana {
+  background: url("../../images/light_purple.png") no-repeat;
+}
+.content .project_cards .project_card_pashi {
+  background: url("../../images/light_pink.png") no-repeat;
+}
+.content .project_cards .project_card_phonomenal {
+  background: url("../../images/light_yellow.png") no-repeat;
+}
+.content .project_cards .project_card_behalf {
+  background: url("../../images/light_blue.png") no-repeat;
+}
 .content .hyperlink {
   color: #249aff;
   text-decoration: none;
@@ -49,25 +71,12 @@
 }
 
 .email_link {
-  color: #45B549;
-}
-
-a:link {
+  color: #45B549 !important;
   text-decoration: none;
-  color: black;
 }
 
-a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: none;
-}
-
-a:active {
-  color: none;
+.email_link:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=color.css.map */
