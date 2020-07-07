@@ -1,10 +1,9 @@
 body {
-  grid-row-gap: 70px;
+  grid-row-gap: 30px;
 }
 
 .nav_bar {
   margin-top: 40px;
-  display: grid;
 }
 .nav_bar .links {
   grid-row-gap: 0px;
@@ -25,8 +24,8 @@ body {
   grid-row-gap: 0px;
 }
 .content .project_cards {
-  margin-top: 110px;
-  grid-gap: 35px;
+  margin-top: 85px;
+  grid-gap: 30px;
 }
 .content .divider_contact_links {
   margin: auto;

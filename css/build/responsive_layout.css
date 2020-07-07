@@ -2,6 +2,9 @@ body {
   display: grid;
 }
 
+.nav_bar {
+  display: grid;
+}
 .nav_bar .hamburger_dropdown_icon {
   display: none;
 }
